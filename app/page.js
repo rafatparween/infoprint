@@ -22,7 +22,7 @@ function Home() {
       <Technicians/>
       <Assistance/>
       <Avoid/>
-      <Helppage/>
+      {/* <Helppage/> */}
       {/* <Customer/> */}
       <FooterSection/>
       <JivoChat/>

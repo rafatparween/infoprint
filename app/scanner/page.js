@@ -424,10 +424,10 @@ function Home() {
           </h1>
         </div>
         <div className="flex items-center 2xl:ml-[193px] 2xl:mt-[59px] xl:ml-[130px] xl:mt-[63px]">
-          <Image src="/unitedlogo.png" alt="United States"
-            height={50}
+          <Image src="/unitedstate.png" alt="United States"
+            height={40}
             width={50}
-            className="w-6 h-6 mr-2" />
+            className="w-6 h-6 mr-2 h-[16px] w-[32px]"  />
           <h1 className="text-lg text-[#007DBA] underline">United States</h1>
         </div>
 
