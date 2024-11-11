@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faFacebook, faInstagram, faTwitter, faYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
 const FooterSection = () => {
   return (
@@ -38,9 +39,11 @@ const FooterSection = () => {
         <div>
           <ul>
             <li className="mb-2 text-white font-semibold">Support</li>
-            <li className="mb-2 hover:text-gray-400 cursor-pointer">Download drivers</li>
+            <Link legacyBehavior href="/policy">
+              <a className="mb-2 hover:text-gray-400 cursor-pointer">Privacy Policy</a>
+            </Link> 
             <li className="mb-2 hover:text-gray-400 cursor-pointer">Support & troubleshooting</li>
-            <li className="mb-2 hover:text-gray-400 cursor-pointer">Community</li>
+            <li className="mb-2 hover:text-gray-400 cursor-pointer">Download drivers</li>
             <li className="mb-2 hover:text-gray-400 cursor-pointer">Register your product</li>
             <li className="mb-2 hover:text-gray-400 cursor-pointer">Authorized service providers</li>
             <li className="mb-2 hover:text-gray-400 cursor-pointer">Check repair status</li>
@@ -108,7 +111,7 @@ const FooterSection = () => {
       </div> */}
       <div className="border-t border-gray-600 py-4 text-center">
         <p className="text-xs text-gray-400">
-        © Copyright, All Rights Reserved by  infoprintsolution
+        © Copyright, All Rights Reserved by infoprintsolution
         </p>
       </div>
     </footer>
